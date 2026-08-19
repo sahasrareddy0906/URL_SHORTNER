@@ -47,7 +47,7 @@ jobs:
         uses: liskin/gh-problem-matcher-wrap@v2
         with:
           linters: isort
-          run: isort --check-only .
+          run: isort --check-only --settings-path pyproject.toml .
 
   black:
     runs-on: ubuntu-latest
