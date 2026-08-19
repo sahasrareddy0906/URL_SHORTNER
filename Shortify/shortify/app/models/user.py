@@ -4,7 +4,6 @@ from typing import Optional
 from beanie import Document, Indexed
 from pydantic import EmailStr
 from pydantic.fields import Field
-
 from shortify.app.core.security import create_api_key, verify_password
 
 

@@ -5,7 +5,6 @@ from typing import Any, Optional, Union
 
 from jose import jwt
 from passlib.context import CryptContext
-
 from shortify.app.core.config import settings
 
 pwd_context = CryptContext(schemes=["bcrypt"], deprecated="auto")

@@ -3,7 +3,6 @@ from datetime import timedelta
 from fastapi import APIRouter, Depends, HTTPException, status
 from fastapi.responses import ORJSONResponse
 from fastapi.security import OAuth2PasswordRequestForm
-
 from shortify.app import schemas
 from shortify.app.api.v1.deps import get_current_active_user
 from shortify.app.core import security

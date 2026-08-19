@@ -5,7 +5,6 @@ from typing import Any, Dict, MutableMapping, Tuple
 
 import structlog
 import uvicorn
-
 from shortify.app.middlewares.correlation import correlation_id
 
 if sys.version_info >= (3, 10):

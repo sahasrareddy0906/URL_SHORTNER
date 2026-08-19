@@ -1,7 +1,6 @@
 from fastapi import APIRouter
 from fastapi.openapi.docs import get_swagger_ui_html
 from fastapi.responses import HTMLResponse
-
 from shortify.app.core.config import settings
 
 router = APIRouter()

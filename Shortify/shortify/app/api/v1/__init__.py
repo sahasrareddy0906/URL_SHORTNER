@@ -1,5 +1,4 @@
 from fastapi import APIRouter
-
 from shortify.app.api.v1.endpoints import auth, urls, users
 from shortify.app.core.config import settings
 

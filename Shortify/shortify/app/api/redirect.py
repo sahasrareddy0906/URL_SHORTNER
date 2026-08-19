@@ -1,6 +1,5 @@
 from fastapi import APIRouter, BackgroundTasks, status
 from fastapi.responses import RedirectResponse
-
 from shortify.app.api.v1.endpoints.urls import short_url_not_found
 from shortify.app.models import ShortUrl
 

@@ -1,6 +1,5 @@
 from beanie import init_beanie
 from motor.motor_asyncio import AsyncIOMotorClient
-
 from shortify.app.core.config import settings
 from shortify.app.core.security import get_password_hash
 from shortify.app.models import User, gather_documents

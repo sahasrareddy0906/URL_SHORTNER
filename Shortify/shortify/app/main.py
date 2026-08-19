@@ -6,13 +6,12 @@ from fastapi import FastAPI, status
 from fastapi.exceptions import RequestValidationError
 from fastapi.responses import ORJSONResponse
 from fastapi.staticfiles import StaticFiles
-from starlette.exceptions import HTTPException as StarletteHTTPException
-
 from shortify.app import api
 from shortify.app.core.config import settings
 from shortify.app.core.logging import configure_logging
 from shortify.app.db import init_db
 from shortify.app.schemas.error import APIValidationError, CommonHTTPError
+from starlette.exceptions import HTTPException as StarletteHTTPException
 
 
 @asynccontextmanager

@@ -1,7 +1,6 @@
 from typing import TYPE_CHECKING
 
 from fastapi import APIRouter, Depends, HTTPException, status
-
 from shortify.app import schemas
 from shortify.app.api.v1.deps import (
     get_current_active_superuser,

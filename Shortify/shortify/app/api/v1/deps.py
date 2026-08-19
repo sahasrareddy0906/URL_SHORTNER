@@ -6,7 +6,6 @@ from fastapi.exceptions import HTTPException
 from fastapi.security import APIKeyQuery, OAuth2PasswordBearer
 from jose import jwt
 from pydantic import ValidationError
-
 from shortify.app import schemas
 from shortify.app.core import security
 from shortify.app.core.config import settings

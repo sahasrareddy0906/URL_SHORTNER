@@ -2,9 +2,9 @@ import secrets
 from typing import List
 
 from pydantic import BaseSettings, EmailStr, MongoDsn
+from shortify.app.core.enums import LogLevel
 
 from shortify import __version__
-from shortify.app.core.enums import LogLevel
 
 # This adds support for 'mongodb+srv' connection schemas when using e.g. MongoDB Atlas
 MongoDsn.allowed_schemes.add("mongodb+srv")

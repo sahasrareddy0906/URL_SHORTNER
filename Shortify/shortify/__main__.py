@@ -1,5 +1,4 @@
 import uvicorn
-
 from shortify.app.core.config import settings
 
 

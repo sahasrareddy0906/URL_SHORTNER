@@ -2,7 +2,6 @@ from typing import TYPE_CHECKING, Any, Dict, Optional
 
 from fastapi import APIRouter, Body, Depends, HTTPException, status
 from pydantic.networks import EmailStr
-
 from shortify.app import schemas
 from shortify.app.api.v1.deps import (
     get_current_active_superuser,

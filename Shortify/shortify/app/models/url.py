@@ -5,7 +5,6 @@ from typing import TYPE_CHECKING, List, Optional
 
 from beanie import Document, Indexed, PydanticObjectId
 from pydantic import Field
-
 from shortify.app.core.config import settings
 
 if TYPE_CHECKING:
